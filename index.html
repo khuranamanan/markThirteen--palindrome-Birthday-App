@@ -1,21 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Palindrome Birthday checker</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Is your Birthday a Palindrome?</h1>
-    <p>Let's Check!!</p>
+    <header>
+        <div class="container">
+            <h1>Is your Birthday a Palindrome?</h1>
+        </div>
+    </header>
+    <div class="container">
+        <p class="line-two">Let's Check!!</p>
 
-    <label for="input-date">Enter your Birth Date here:</label>
-    <input type="date" id="input-date">
+        <label for="input-date">Enter your Birth Date here:</label>
+        <input type="date" id="input-date" class="input-style">
 
-    <button id="btn-check">Check</button>
+        <button id="btn-check">Check</button>
 
-    <p id="output"></p>
+        <p id="output" class="output-style"></p>
+    </div>
+    <footer class="footer">
+        <div class="container container-center">
+            <div class="footer-heading">Social Media Links</div>
+            <ul class="list-style-none">
+                <li class="list-inline">
+                    <a href="https://github.com/khuranamanan" class="link-social links">
+                        <img src="images/GitHub-Mark-Light-64px.png" alt="Github Profile Link" class="footer-img">
+                    </a>
+                </li>
+                <li class="list-inline">
+                    <a href="https://www.linkedin.com/in/manan-khurana-1b135b19b/" class="link-social links">
+                        <img src="images/LinkedIn.svg" alt="linkedIn profile link" class="footer-img">
+                    </a>
+                </li>
+                <li class="list-inline">
+                    <a href="https://twitter.com/manankhurrana" class="link-social links">
+                        <img src="images/Twitter.svg" alt="Twitter profile Link" class="footer-img">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 <script src="main.js"></script>
+
 </html>
